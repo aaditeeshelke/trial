@@ -1,0 +1,45 @@
+.user-dashboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .publisher-card {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .author-section {
+    margin-top: 10px;
+  }
+  
+  .books-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .book-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    padding: 10px;
+  }
+  
+  .book-img {
+    border-radius: 8px;
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .book-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Fixed to 4 columns */
+    gap: 1rem;
+  }
